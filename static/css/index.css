@@ -69,7 +69,7 @@ header nav img {
 
 /* HERO */
 .hero-section {
-    height: 100vh;
+    height: 70vh;
 }
 .hero-wrapper {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/hero-img.jpg");
