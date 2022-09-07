@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background-color: #bfc2cb;
+    color: white;
+    text-align: center;
+}
+
+a { 
+    color: white;
+}
+
+h1 {
+    margin-top: 4rem;
+}
