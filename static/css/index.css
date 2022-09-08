@@ -7,7 +7,7 @@ body {
     background-color: #bfc2cb;
 }
 
-div, h1, h2, p {
+section, div, h1, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -69,7 +69,7 @@ header nav img {
 
 /* HERO */
 .hero-section {
-    height: 70vh;
+    /* height: 70vh; */
 }
 .hero-wrapper {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../images/hero-img.jpg");
@@ -101,6 +101,36 @@ header nav img {
 }
 
 /* HERO END */
+
+
+
+
+
+
+/* WRITINGS */
+.writings-section {
+    margin-top: 3rem;
+    padding: 0 25px;
+}
+.posts-container ul {
+    padding: 0;
+}
+.posts-container ul li {
+    list-style-type: numeric;
+    padding-bottom: 10px;
+}
+.posts-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+}
+.posts-container a:hover {
+    text-decoration: underline;
+}
+/* WRITINGS END */
+
 
 
 
