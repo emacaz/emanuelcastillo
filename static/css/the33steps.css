@@ -159,21 +159,13 @@ header nav img {
     font-weight: 550;
     color: rgb(11, 141, 45);
 }
-.buy-button button {
-    display: block;
+.buy-button p:nth-child(5) {
     margin: 10px auto;
-    padding: 9px 47px;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    /* background: rgb(11, 141, 45); */
-    background: rgb(64, 65, 64);
-    color: white;
-    cursor: not-allowed;
 }
-
-.buy-button button:hover {
-    background-color: #757678;
+.buy-button h2 {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid gray;
 }
 /* EBOOK-CONTENT END */
 
