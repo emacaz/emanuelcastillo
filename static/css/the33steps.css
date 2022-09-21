@@ -7,7 +7,12 @@ body {
     background-color: #bfc2cb;
 }
 
-section, div, h1, h2, p {
+section {
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+div, h1, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -111,7 +116,16 @@ header nav img {
 }
 .author-container p {
     text-align: right;
-    margin-top: 1rem;
+    margin-top: 10px;
+}
+.author-container p:nth-child(3) {
+    text-align: justify;
+}
+.author-container a {
+    color: #000;
+}
+.author-container a:hover {
+    color: rgb(63, 63, 63);
 }
 .author-container img {
     width: 100%;
