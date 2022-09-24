@@ -148,6 +148,35 @@ header nav img {
 
 
 
+
+/* ADVICES */
+.advices-wrapper h1 {
+    margin-bottom: 5px;
+}
+
+.advices-container {
+    margin-top: 30px;
+    place-content: center;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,265px);
+}
+
+.advice-item {
+    background-color: #fff;
+    padding: 15px 20px;
+    text-align: justify;
+    font-style: italic;
+    border-radius: 34px 0 40px 0px;
+    box-shadow: 0 8px 19px 0 rgb(3 9 30 / 32%);
+}
+/* ADVICES END */
+
+
+
+
+
+
 /* FOOTER */
 footer {
     background-color: #bfc2cb;
