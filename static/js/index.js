@@ -97,3 +97,22 @@ show_all_experience_btn.addEventListener("click", function(e) {
         }
     }
 })
+
+let experience_items = document.getElementsByClassName("experience-item-container");
+for (let experience_item of experience_items) {
+    experience_item.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        console.log(experience_item.parentElement.children[1].children[0]);
+
+        let short_title_id = document.getElementById("short_title_id");
+        let green_title_id = document.getElementById("green_title_id");
+        let experience_duration_id = document.getElementById("experience_duration_id");
+        let experience_item_description = document.getElementById("experience_item_description");
+
+        short_title_id.innerHTML                = experience_item.parentElement.children[1].children[0].textContent;
+        green_title_id.innerHTML                = experience_item.parentElement.children[1].children[1].textContent;
+        experience_duration_id.innerHTML        = experience_item.parentElement.children[1].children[2].textContent;
+        experience_item_description.innerHTML   = experience_item.parentElement.children[1].children[3].textContent;
+    })
+}
