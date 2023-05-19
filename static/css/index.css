@@ -857,9 +857,11 @@ footer {
     .name-container p {
         font-size: 60px;
     }
-    .name-description-container p {
-
+    .name-container span {
+        font-size: 20px;
+        bottom: 12px;
     }
+
 
     .main-img-container img {
         position: relative;
