@@ -7,12 +7,12 @@
     --small-font-size: 18px;
     --very-small-font-size: 12px;
 
-    --white-color: #fff;
-    --black-color: #000;
+    --white-color: #FFFFFF;
+    --black-color: #3C4451;
     --gray-color: #edeff5;
     --dark-gray-color: #464e5c;
-    --soft-dark-gray-color: #6f798b;
-    --light-green-color: #00e447;
+    --soft-dark-gray-color: #818A98;
+    --light-green-color: #00D646;
 }
 
 * {
@@ -101,10 +101,17 @@ header {
     display: none;
 }
 
-.header-items li:first-child span {
-    display: block;
+.header-items li:first-child a {
+    margin-left: 20px;
+    position: relative;
 }
 
+.header-items li:first-child span {
+    display: block;
+    position: absolute;
+    left: -25px;
+    top: -17px;
+}
 
 .header-items li {
     list-style: none;
@@ -611,6 +618,10 @@ footer {
     .header-items li a:hover {
         background-color: #00e882;
         color: var(--white-color);
+    }
+
+    .header-items li:first-child a {
+        margin-left: unset;
     }
 
     .header-items li:first-child span {
