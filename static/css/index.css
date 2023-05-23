@@ -164,7 +164,7 @@ header {
     font-size: 35px;
     color: var(--light-green-color);
     position: absolute;
-    bottom: 0;
+    bottom: 9px;
 }
 
 .name-description-container p {
@@ -646,6 +646,10 @@ footer {
         font-size: 55px;
     }
 
+    .name-container span {
+        bottom: 4px;
+    }
+
     .main-img-container {
         position: relative;
         width: 100%;
@@ -858,8 +862,8 @@ footer {
         font-size: 60px;
     }
     .name-container span {
-        font-size: 20px;
-        bottom: 12px;
+        font-size: 28px;
+        bottom: 8px;
     }
 
 
@@ -984,6 +988,11 @@ footer {
 
     .name-description-container p {
         font-size: 19px;
+    }
+
+    .name-container span {
+        font-size: 20px;
+        bottom: 4px;
     }
 
 
