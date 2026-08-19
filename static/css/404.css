@@ -1,17 +1,43 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
+.not-found-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary);
 }
-body {
-    background-color: #bfc2cb;
-    color: white;
+
+.not-found-content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-a { 
-    color: white;
+.not-found-content .green-line {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {
-    margin-top: 4rem;
+.not-found-code {
+    font-size: 120px;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.not-found-content h1 {
+    font-size: var(--big-font-size);
+    color: var(--text-primary);
+    margin: 24px 0 8px;
+}
+
+.not-found-content p {
+    font-size: var(--medium-font-size);
+    color: var(--text-muted);
+    margin: 0 0 32px;
+}
+
+@media (max-width: 768px) {
+    .not-found-code { font-size: 80px; }
+    .not-found-content h1 { font-size: var(--small-font-size); }
 }
